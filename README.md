@@ -71,7 +71,7 @@ TypeScript will be added as a local dependency to the project, so no need to ins
 ### Installation
 
 ```shell
-yarn install
+yarn
 ```
 
 ### Run the app
