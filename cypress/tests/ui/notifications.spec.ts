@@ -46,7 +46,7 @@ describe("Notifications", function () {
       cy.visualSnapshot("Renders the notifications badge with count");
 
       const likesCountSelector = "[data-test*=transaction-like-count]";
-      cy.contains(likesCountSelector, 0);
+      cy.contains(likesCountSelector, 1);
       cy.getBySelLike("like-button").click();
       // a successful "like" should disable the button and increment
       // the number of likes
